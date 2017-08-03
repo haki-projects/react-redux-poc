@@ -3,7 +3,7 @@ import React from 'react';
 
 const VideoDetail = ({video}) => {
   if(!video) {
-    return <div>loading...</div>; //change to a spinner later
+    return <div>loading...</div>;
   }
 
   const videoId = video.id.videoId;
